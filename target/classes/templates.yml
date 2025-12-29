@@ -1,0 +1,77 @@
+templates:
+  default:
+    name: "Default"
+    description: "Clean and elegant layout with borders"
+    pattern:
+      - "B B B B I B B B B"
+      - "B A P P P P P A B"
+      - "B P P P P P P P B"
+      - "B P P P P P P P B"
+      - "B A P P P P P A B"
+      - "B B B B C B B B B"
+  
+  minimal:
+    name: "Minimal"
+    description: "Minimal borders, maximum plugin space"
+    pattern:
+      - "A F F F I F F F A"
+      - "F P P P P P P P F"
+      - "F P P P P P P P F"
+      - "F P P P P P P P F"
+      - "F P P P P P P P F"
+      - "A F F F C F F F A"
+  
+  compact:
+    name: "Compact"
+    description: "Compact layout for servers with few plugins"
+    size: 27
+    pattern:
+      - "B A B B I B B A B"
+      - "B P P P P P P P B"
+      - "B A B B C B B A B"
+  
+  grid:
+    name: "Grid"
+    description: "Organized grid with separators"
+    pattern:
+      - "B B B B I B B B B"
+      - "B P S P S P S P B"
+      - "B S S S S S S S B"
+      - "B P S P S P S P B"
+      - "B S S S S S S S B"
+      - "B B B B C B B B B"
+  
+  fancy:
+    name: "Fancy"
+    description: "Decorative layout with accent highlights"
+    pattern:
+      - "A B A B I B A B A"
+      - "B A P P P P P A B"
+      - "A P P P P P P P A"
+      - "A P P P P P P P A"
+      - "B A P P P P P A B"
+      - "A B A B C B A B A"
+  
+  centered:
+    name: "Centered"
+    description: "Plugins centered with wide borders"
+    pattern:
+      - "B B B B I B B B B"
+      - "B B A P P P A B B"
+      - "B A P P P P P A B"
+      - "B A P P P P P A B"
+      - "B B A P P P A B B"
+      - "B B B B C B B B B"
+
+template-decorators:
+  fancy:
+    border:
+      material: PURPLE_STAINED_GLASS_PANE
+    accent:
+      material: MAGENTA_STAINED_GLASS_PANE
+  
+  minimal:
+    filler:
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+    accent:
+      material: CYAN_STAINED_GLASS_PANE

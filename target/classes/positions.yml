@@ -1,0 +1,6 @@
+plugins: {}
+
+auto-assignment:
+  enabled: true
+  default-priority: 100
+  priority-increment: 10
